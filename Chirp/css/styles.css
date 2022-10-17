@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500;1,600;1,700;1,800&display=swap');
+
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+body {
+    margin: 2em 5em;
+    padding: 0;
+    background-color: #e0eccc;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/*header styling*/
+.chirp {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    color: rgb(62, 62, 214);
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5em
+}
+nav ul li {
+    height: fit-content;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300px;
+    transition: color 0.3s linear;
+}
+nav ul li:hover {
+    color: #888;
+}
+#hamburger {
+    display: none;
+}
+.signin {
+    padding: 0.65em;
+    background-color: rgb(0, 153, 255);
+    color: #fff;
+    border-radius: 4px;
+    display: flex;
+    gap: 0.6em;
+}
+.signin-header {
+    margin-top: -0.55em;
+}
+
+/*main content section start*/
+/*..Analytics section styling..*/
+.analytics-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    margin-bottom: 8em;
+    padding: 0.5em;
+}
+.analytics-section > * {
+    width: 100%;
+}
+.analytics-text h1 {
+    font-size: 2.1em;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0px;
+}
+.analytics-text p {
+    font-size: 0.8em;
+    color: #777;
+    font-weight: 500;
+}
+.links {
+    display: flex;
+    gap: 0.98em;
+}
+.signin-analytics {
+    width: fit-content;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+.learn-more {
+    color:rgb(0, 81, 255);
+    font-weight: 600;
+    margin-top: 0.67em;
+}
+.profiles {
+    margin-top: 0.5em;
+    margin-bottom: 4em;
+}
+.profiles > * {
+    position: absolute;
+}
+.profiles:last-of-type(img) {
+    position: relative;
+}
+.profile1 {
+    margin-left: 0;
+}
+.profile2 {
+    margin-left: 1.5em;
+}
+.profile3 {
+    margin-left: 3em;
+}
+.profile4 {
+    margin-left: 4.5em;
+}
+.profile5 {
+    margin-left: 6em;
+}
+.profile6 {
+    margin-left: 7.5em;
+}
+.profile7 {
+    margin-left: 9em;
+}
+.profile8 {
+    margin-left: 10.5em;
+}
+.profile9 {
+    margin-left: 12em;
+}
+.blue-numbers {
+    color: rgb(0, 81, 255);
+    font-weight: 700;
+}
+.desktop-img {
+    width: 100%;
+    height: 600px;
+}
+.tablet-img {
+    display: none;
+}
+
+/*..Features section styling..*/
+.features-section {
+    margin-bottom: 8em;
+}
+.features-section h2 {
+    max-width: 50%;
+}
+.feature {
+    border: 1px solid #888;
+    margin-top: 1em;
+    border-radius: 6px;
+    padding: 1em;
+}
+.features1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+.features1 > * {
+    width: 100%;
+}
+.features1 {
+    max-width: 100%;
+}
+
+/*..Reviews section styling..*/
+.reviews-section {
+    margin-bottom: 8em;
+}
+.review-tweets {
+    display: flex;
+    gap: 0.8em;
+}
+.review-tweets > * {
+    width: 80%;
+}
+.tweets {
+    border: 1px rgb(0, 153, 255) solid;
+    padding: 1em;
+    border-radius: 6px;
+    margin-bottom: 1em;
+}
+.profile {
+    display: flex;
+    gap: 0.5em;
+}
+.profile-head {
+    display: flex;
+    justify-content: space-between;
+}
+.profile-id h4 {
+    margin-bottom: 0;
+    margin-top: 0.9em;
+}
+.profile-id p {
+    margin-top: 0;
+    color: #888;
+    font-size: 0.9em;
+}
+.actual-tweet {
+    color: #444;
+}
+.likes {
+    display: flex;
+    gap: 0.5em;
+}
+.like-img {
+    max-width: 18px;
+    width: 18px;
+}
+.date-likes-container {
+    display: flex;
+    justify-content: space-between;
+}
+.date p {
+    color: #789;
+}
+
+/*..Pricing section styling..*/
+.pricing-section {
+    margin-bottom: 6em;
+}
+.pricing-plan {
+    text-align: center;
+    margin-bottom: 2.5em;
+}
+.pricing-plan h3 {
+    margin-bottom: 0;
+}
+.pricing-plan p {
+    color: #888;
+    font-size: 1em;
+}
+.pricing {
+    border: 1px orange solid;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+    padding: 1em 1.8em;
+}
+.pricing p {
+    color: #888;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.price {
+    display: flex;
+}
+.price h1 {
+    margin: 0.4em 0 0 0;
+}
+.perks {
+    display: flex;
+    gap: 0.6em;
+    margin-bottom: 0.7em;
+}
+.perks p {
+    margin: 0;
+}
+.start-trial {
+    width: fit-content;
+}
+
+/*..Footer styling..*/
+.footer {
+    display: flex;
+    justify-content: space-between; 
+}
+.footer h3 {
+    margin: 0;
+}
+.footer-div {
+    display: flex;
+    gap: 1em;
+}
+.footer-div img {
+    max-width: 2em;
+}
+.footer-div p {
+    width: fit-content;
+}
+.footer-div > * {
+    margin: 0;
+    width: 100%;
+}
+
+/*..Styling for smaller screens..*/
+@media screen and (max-width: 460px) {
+    .features1 {
+        flex-direction: column;
+    }
+    .review-tweets {
+        flex-direction: column;
+    }
+    .footer {
+        flex-direction: column;
+        gap: 1em;
+    }
+}
+@media screen and (max-width: 580px) {
+    body {
+        margin: 1em;
+    }
+    .review-tweets {
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width: 640px) {
+    body {
+        margin: 2em 3em;
+    }
+    main > * {
+        flex-direction: column;
+    }
+    .analytics-section {
+        flex-direction: column-reverse;
+    }
+    .features-section h2 {
+        max-width: 90%;
+    }
+    nav {
+        display: none;
+    }
+    #hamburger {
+        display: unset;
+    }
+}
+@media screen and (min-width: 580px) and (max-width: 768px) {
+    .jack {
+        display: none;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 1010px) {
+    .analytics-section {
+        flex-direction: column-reverse;
+    }
+    .desktop-img {
+        display: none;
+    }
+    .tablet-img {
+        display: unset;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1010px) {
+    .reviews-section {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 85%;
+    }
+    .desktop-img {
+        display: none;
+    }
+    .tablet-img {
+        display: unset;
+        width: 100%;
+    }
+}
