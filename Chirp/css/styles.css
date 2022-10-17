@@ -297,7 +297,9 @@ nav ul li:hover {
     }
     .footer {
         flex-direction: column;
-        gap: 1em;
+    }
+    .footer h3 {
+        display: none;
     }
 }
 @media screen and (max-width: 580px) {
